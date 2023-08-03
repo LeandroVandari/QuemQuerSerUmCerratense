@@ -19,11 +19,11 @@ def main():
 
   while numero_pergunta <= 15:
     if numero_pergunta <= 5:
-      pergunta = random.choice(perguntas_faceis)
+      pergunta = random.choice(list(perguntas_faceis.items()))
     elif numero_pergunta <= 10:
-      pergunta = random.choice(perguntas_medias)
+      pergunta = random.choice(list(perguntas_medias.items()))
     elif numero_pergunta <= 15:
-      pergunta = random.choice(perguntas_dificeis)
+      pergunta = random.choice(list(perguntas_dificeis.items()))
     print(f"""Pergunta número {numero_pergunta}: 
     {pergunta}""")
 if __name__ == "__main__":
