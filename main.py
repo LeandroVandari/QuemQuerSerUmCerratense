@@ -75,7 +75,7 @@ def main():
     questao = pergunta[0]
     respostas = pergunta[1][1]
     print(f"""\nPergunta número {numero_pergunta}: 
-    {questao}\nAs alternativas são:\n\n""")
+    {questao}\nAs alternativas são:\n""")
     for i, resposta in enumerate(respostas):
       letra = letras[i]
       print(f"\t{letra}. {resposta}\n")
@@ -85,8 +85,9 @@ def main():
       break
     escolha = ""
     while not escolha in letras[:len(respostas)]:
-      escolha = input("\n\n Ok, qual alternativa deseja escolher? ").lower()
+      escolha = input("\n\nOk, qual alternativa deseja escolher? ").lower()
       print("Alternativa inválida. Tente novamente")
+      break
     if not letras.index(escolha) + 1 == pergunta[1][0]:
       certa = pergunta[1][1][pergunta[1][0] - 1]
       letra = letras[pergunta[1][0] - 1]
