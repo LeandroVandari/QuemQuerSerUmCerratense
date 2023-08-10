@@ -25,9 +25,9 @@ perguntas = {
   "medias": {
     "Qual é a porcentagem equivalente à área do bioma cerrado no Brasil?": (3, ["32%", "17%", "22%", "25%"]),
     "Qual é o tipo de solo encontrado no Cerrado brasileiro?": (3, ["Arenoso", "Calcário", "Argiloso", "Orgânico"]), 
-    "A respeito das características do Cerrado, marque a alternativa incorreta.": (4 ["O Cerrado apresenta predominantemente formações de savana", "O Cerrado é o segundo maior bioma da América do Sul", "O Cerrado apresenta clima tropical quente subúmido", "O Cerrado possui quatro estações bem definidas"]),
-    "A vegetação de Cerrado ocupa uma grande extensão territorial do Brasil. Qual dos estados não possui vegetação do Cerrado": (4 ["Mato Grosso do Sul", "Minas Gerais", "Goiás", "Rio Grande do Sul"]),
-    "O solo do Cerrado é bastante ácido. Desse modo, a prática de atividades agrícolas em larga escala nesse bioma é possível em razão de:": (2 ["Canalização dos rios", "Realização da calagem", "Impermeabilização do solo", "Proibição dos agrotóxicos"]), 
+    "A respeito das características do Cerrado, marque a alternativa incorreta.": (4, ["O Cerrado apresenta predominantemente formações de savana", "O Cerrado é o segundo maior bioma da América do Sul", "O Cerrado apresenta clima tropical quente subúmido", "O Cerrado possui quatro estações bem definidas"]),
+    "A vegetação de Cerrado ocupa uma grande extensão territorial do Brasil. Qual dos estados não possui vegetação do Cerrado": (4, ["Mato Grosso do Sul", "Minas Gerais", "Goiás", "Rio Grande do Sul"]),
+    "O solo do Cerrado é bastante ácido. Desse modo, a prática de atividades agrícolas em larga escala nesse bioma é possível em razão de:": (2, ["Canalização dos rios", "Realização da calagem", "Impermeabilização do solo", "Proibição dos agrotóxicos"]), 
     "Qual a importância do Cerrado para o ciclo da água no Brasil?": (2 ["Funciona como um grande reservatório de água subterrânea", "Regula o ciclo da água evitando enchentes e secas extremas", "Contribui para o desenvolvimento de plantas", "Não possui relevância para o ciclo"]),
     "As veredas são uma fitofisionomia vegetacional encontrada no Cerrado marcada pela": (1, ["Presença de nascentes", "Ocorrências de desertos", "Vegetação de altitude", "Existência de gramíneas"]),
     "Como é chamada a vegetação de grande porte do Cerrado que é encontrada ao longo dos principais cursos de água desse bioma?": (3, ["Mata seca", "Campo limpo", "Mata de galeria", "Campo sujo"]),
