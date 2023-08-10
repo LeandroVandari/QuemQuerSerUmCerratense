@@ -62,7 +62,6 @@ def main():
   4. A cada pergunta, você pode desistir ou continuar, antes de responder. Se desistir, ficará com o prêmio correspondente à pergunta em que está.""")
 
   while numero_pergunta <= 15:
-    
     if numero_pergunta <= 5:
       dificuldade = "faceis"    
     elif numero_pergunta <= 10:
