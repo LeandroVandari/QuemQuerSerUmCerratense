@@ -81,7 +81,7 @@ def main():
     desistir = input(f"Deseja continuar ou desistir e ganhar R${premios[numero_pergunta - 1]:2f}? (\"c\" para continuar, qualquer outra coisa para desistir)").lower()
     if desistir != "c":
       print(f"Seu prêmio final foi R${premios[numero_pergunta - 1]:2f}. Parabéns!")
-      break
+      return
     escolha = ""
     while not escolha in letras[:len(respostas)]:
       escolha = input("\n\nOk, qual alternativa deseja escolher? ").lower()
