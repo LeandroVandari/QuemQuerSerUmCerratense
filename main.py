@@ -101,6 +101,7 @@ def main():
     print("Parabéns, você acertou! Vamos à próxima pergunta.")
     perguntas[dificuldade][questao]
     numero_pergunta += 1
+main()
 dnv = input("Deseja jogar novamente? (S/N)").lower()
 if dnv == "s":
   print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
@@ -108,5 +109,3 @@ if dnv == "s":
 else:
   print("Então sai daqui animal")
   exit()
-if __name__ == "__main__":
-  main()
