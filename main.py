@@ -39,7 +39,7 @@ perguntas = {
 
   "dificeis": {
     "Qual é, aproximadamente, a área, em km², do cerrado?": (1, ["200 milhões", "245 milhões", "190 milhões", "130 milhões"]),
-    "No Cerrado são encontrados onze tipos de vegetação, entretanto elas são distribuídas principalmente em três tipos de formações que são:": (4, ["Formações Campestres, Formações Arbustivas e Formações Arbóreas", "Formações Savânicas, Formações Campestres e Formações Vulcânicas",  "Formações Florestais, Formações Savânicas e Formações Urbanas", "Formações Florestais, Formações Campestres e Formações Savânicas"])
+    "No Cerrado são encontrados onze tipos de vegetação, entretanto elas são distribuídas principalmente em três tipos de formações que são:": (4, ["Formações Campestres, Formações Arbustivas e Formações Arbóreas", "Formações Savânicas, Formações Campestres e Formações Vulcânicas",  "Formações Florestais, Formações Savânicas e Formações Urbanas", "Formações Florestais, Formações Campestres e Formações Savânicas"]),
     "Cerca de quantas espécies nativas são encontradas no cerrado?": (3, ["10.925", "11.435", "11.627", "12.005"]),
     "Quantas espécies de plantas já foram identificadas no Cerrado?": (3, ["Cerca de 1000", "Cerca de 5000", "Cerca de 10000", "Cerca de 20000"]),
     "Todo cerrado é uma savana.": (2, ["Verdadeiro", "Falso"]),
