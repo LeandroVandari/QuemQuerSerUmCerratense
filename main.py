@@ -59,7 +59,7 @@ def main():
   1. O jogo consiste de 15 perguntas sobre o cerrado brasileiro, em ordem ascendente de dificuldade.
   2. A cada pergunta, aumenta o seu prêmio.
   3. A cada 5 perguntas, há um checkpoint. Se você errar, ganhará o prêmio do checkpoint anterior.
-  4. A cada pergunta, você pode desistir ou continuar, antes de responder. Se desistir, ficará com o prêmio correspondente à pergunta em que está.""")
+  4. A qualquer momento, você poderá desistir, digitando "desistir". Se desistir, ficará com o prêmio correspondente à pergunta em que está.""")
 
   while numero_pergunta <= 15:
     if numero_pergunta <= 5:
@@ -78,14 +78,12 @@ def main():
     for i, resposta in enumerate(respostas):
       letra = letras[i]
       print(f"\t{letra}. {resposta}\n")
-    desistir = input(f"Deseja continuar ou desistir e ganhar R${premios[numero_pergunta - 1]:2f}? (\"c\" para continuar, qualquer outra coisa para desistir)").lower()
-    if desistir != "c":
-      print(f"Seu prêmio final foi R${premios[numero_pergunta - 1]:2f}. Parabéns!")
-      return
-    escolha = ""
+    escolha = input("\nQual letra deseja escolher? (Ou \"desistir\" para desistir)")
     while not escolha in letras[:len(respostas)]:
-      escolha = input("\n\nOk, qual alternativa deseja escolher? ").lower()
-      print("Alternativa inválida. Tente novamente")
+      if escolha.lower() == "desistir":
+        print(f"Seu prêmio final foi R${premios[numero_pergunta - 1]:.2f}. Parabéns!")
+        return
+      escolha = input("\n\nAlternativa inválida, digite outra alternativa. ").lower()
       break
     if not letras.index(escolha) + 1 == pergunta[1][0]:
       certa = pergunta[1][1][pergunta[1][0] - 1]
@@ -96,7 +94,7 @@ def main():
         premio_final = 5000
       else:
         premio_final = 50000
-      print(f"Você errou. A resposta certa era: \n\n\t{letra}. {certa}\n\nSeu prêmio final foi R${premio_final:2f}")
+      print(f"Você errou. A resposta certa era: \n\n\t{letra}. {certa}\n\nSeu prêmio final foi R${premio_final:.2f}")
       break
     print("Parabéns, você acertou! Vamos à próxima pergunta.")
     perguntas[dificuldade][questao]
